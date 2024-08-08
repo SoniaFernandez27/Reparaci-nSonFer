@@ -1,0 +1,120 @@
+
+#nav1 ul{
+background-color: black;
+overflow: hidden;
+}
+#nav1 ul li{
+    float: left;
+}
+#nav1 li,a{
+   text-decoration: none;
+   list-style-type: none;
+   display: block;
+   padding: 10px;
+   color: white;
+   font-size: 25px;
+
+}
+#nav1 li:hover{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+
+}
+.sonia{
+    color:red;
+    font-family: 'Times New Roman';
+    font-weight: 900;
+    text-align: center;
+    font-size: 50px;
+}
+.son{
+    text-align: center;
+    color: orange;
+}
+
+.foteer{
+    background-color:#E91D62;
+    width: 100%;
+    height: 20%;
+    border-radius: 20px;
+}
+.medios
+{
+ text-align: center;
+ color: white;
+}
+img[src="img/facebook.jpg" ]{
+    padding-left: 70px;
+}
+img[src="img/instagram.jpg" ]{
+    padding-left: 90px;
+}
+img[src="img/wasapp.png"]{
+    padding-left: 70px;
+}
+.medios:hover{
+    color:darkturquoise;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.tex{
+    margin-top: 20px;
+}
+.zoom,.animacion{
+    transition: transform 0.3s ease;
+}
+.zoom,.animacion:hover{
+    transform: scale(0.8);
+}
+.fila{
+    margin-top: 30px;
+}
+.contacto{
+    background-color: bisque;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+.con{
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-weight: 800;
+    font-size: 30px;
+    padding-top:1.5em;
+}
+.envia{
+    margin-left: 90%;
+    padding: 10px;
+    border-width:1px;
+    width: 90px;
+    height: 50px;
+    border-color: black;
+    border-style: solid;
+    margin-bottom: 5px;
+}
+.label{
+    font-size: 25px;
+    font-family: Verdana,;
+}
+/*voy utulisar un seudoelemento : placefolder*/
+::placeholder{
+    color:cadetblue;
+    font-family: 'Franklin Gothic Medium'
+}
+.mover{
+    margin-top: 7px;
+}
+.bajarfila{
+ margin-top: 50px;
+}
+.imagenefecto{
+    transition: transform 0.3s ease;
+}
+.imagenefecto:hover{
+    transform: scale(0.8);
+}
+.sonia::first-letter{
+    color:blueviolet;
+    font-size: 70px;
+    font-weight: 900;
+}
